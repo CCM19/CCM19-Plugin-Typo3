@@ -1,0 +1,14 @@
+
+plugin.tx_ccm19_ccm19 {
+    view {
+        templateRootPaths.0 = EXT:ccm19/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_ccm19.view.templateRootPath}
+        partialRootPaths.0 = EXT:ccm19/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_ccm19_ccm19.view.partialRootPath}
+        layoutRootPaths.0 = EXT:ccm19/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_ccm19_ccm19.view.layoutRootPath}
+    }
+}
+
+page.headTag.postCObject = TEXT
+page.headTag.postCObject.value ={$ccm19-key}

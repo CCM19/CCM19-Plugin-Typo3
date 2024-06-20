@@ -1,0 +1,6 @@
+plugin.tx_ccm19_ccm19.view {
+    templateRootPath = EXT:ccm19/Resources/Private/Templates/
+    partialRootPath = EXT:ccm19/Resources/Private/Partials/
+    layoutRootPath = EXT:ccm19/Resources/Private/Layouts/
+}
+ccm19-key =
