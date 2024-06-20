@@ -4,7 +4,7 @@
         <header/>
         <body>
             <trans-unit id="extensionName" xml:space="preserve">
-                <source>Clickskeks</source>
+                <source>CCM19</source>
             </trans-unit>
             <trans-unit id="extensionDescription" xml:space="preserve">
                 <source>Adds the Data Protection from CCM19</source>
